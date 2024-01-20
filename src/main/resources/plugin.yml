@@ -1,0 +1,17 @@
+name: WelcomeJoin
+version: '${project.version}'
+main: org.welcomejoin.WelcomeJoin
+api-version: '1.20'
+author: "MrAnilcaan_K"
+description: Hoş geldin mesajları ve Boss Bar eklentisi
+
+commands:
+  motd:
+    description: Manage welcome messages
+    usage: /motd [edit|remove|new|reload]
+    aliases: [welcomemsg, wm]
+    permission: welcomejoin.admin
+permissions:
+  welcomejoin.admin:
+    description: Allows access to all WelcomeJoin commands
+    default: op

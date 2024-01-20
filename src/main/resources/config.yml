@@ -1,0 +1,31 @@
+# WelcomeJoin Configuration
+
+welcome-messages:
+  - "&aWelcome, %player%! Enjoy your stay!"
+  - "&eDon't forget to follow the rules, %player%."
+
+
+
+messages:
+  motd-list: "&7[&e%line%&7] %message%"
+  motd-added: "&aMotd added successfully!"
+  motd-edited: "&aMotd at line %line% edited successfully!"
+  motd-removed: "&aMotd at line %line% removed successfully!"
+  motd-reloaded: "&aMotd configuration reloaded successfully!"
+  invalid-command-usage: "&cInvalid command usage. Usage: /motd [edit/remove/new/reload]"
+  invalid-line-number: "&cInvalid line number."
+
+
+
+bossbar:
+  show-title: true
+  duration: 10
+  colors:
+    - BLUE
+    - GREEN
+    - PINK
+    - PURPLE
+    - RED
+    - WHITE
+    - YELLOW
+  title: "&aWelcome to the server!"  # BossBar title
